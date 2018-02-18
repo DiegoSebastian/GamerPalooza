@@ -1,0 +1,239 @@
+.orbit-container {
+  height: auto !important; }
+
+.orbit-slide {
+  min-height: none !important; }
+
+body {
+  background: #ee3f54;
+  font-family: 'Bree Serif', serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree serif'; }
+
+header .social-container {
+  background: #1c3643; }
+
+header .logo-container .callout {
+  background: #ee3f54;
+  margin-bottom: 0; }
+  header .logo-container .callout img {
+    margin: 50px 0; }
+  header .logo-container .callout .gameboy {
+    float: left; }
+
+header .data-sticky {
+  margin: 0;
+  z-index: 100; }
+
+header .menu-container {
+  background: #48a19d; }
+  header .menu-container li a {
+    color: #fff;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    text-transform: uppercase; }
+    header .menu-container li a:hover {
+      color: #f6e15f; }
+  header .menu-container .sub-menu {
+    border: none;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s; }
+    header .menu-container .sub-menu li a {
+      background: #48a19d;
+      color: #fff; }
+      header .menu-container .sub-menu li a:hover {
+        color: #f6e15f; }
+
+header #offCanvas {
+  background: #000;
+  color: #fff; }
+  header #offCanvas nav {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    header #offCanvas nav ul {
+      height: 100%;
+      margin-top: 60px; }
+      header #offCanvas nav ul li {
+        outline: none; }
+        header #offCanvas nav ul li a {
+          font-size: 20px; }
+    header #offCanvas nav img {
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 50px; }
+
+.pricing-table {
+  background-color: #fefefe;
+  border: solid 1px #cacaca;
+  width: 100%;
+  text-align: center;
+  list-style-type: none; }
+  .pricing-table li {
+    border-bottom: dotted 1px #cacaca;
+    padding: 0.875rem 1.125rem; }
+    .pricing-table li:last-child {
+      border-bottom: 0; }
+  .pricing-table .title {
+    background-color: #0a0a0a;
+    color: #fefefe;
+    border-bottom: 0; }
+  .pricing-table .price {
+    background-color: #e6e6e6;
+    font-size: 2rem;
+    border-bottom: 0; }
+  .pricing-table .description {
+    color: #8a8a8a;
+    font-size: 80%; }
+  .pricing-table:last-child {
+    margin-bottom: 0; }
+
+main .buy .callout {
+  background: #5e7eb7;
+  margin-bottom: 0; }
+  main .buy .callout .button {
+    color: #fff;
+    border: 1px solid #fff; }
+    main .buy .callout .button:hover {
+      background: #fff;
+      color: #5e7eb7; }
+
+main .lineup,
+main .tabs,
+main .tabs-panel {
+  background: #9676af;
+  color: #fff;
+  padding: 1em 0;
+  text-transform: uppercase; }
+  main .lineup .tabs,
+  main .tabs .tabs,
+  main .tabs-panel .tabs {
+    border: 0; }
+    main .lineup .tabs .tabs-title,
+    main .tabs .tabs .tabs-title,
+    main .tabs-panel .tabs .tabs-title {
+      display: inline-block;
+      float: none; }
+      main .lineup .tabs .tabs-title.is-active a,
+      main .tabs .tabs .tabs-title.is-active a,
+      main .tabs-panel .tabs .tabs-title.is-active a {
+        color: #fff;
+        background: #9676af; }
+      main .lineup .tabs .tabs-title a,
+      main .tabs .tabs .tabs-title a,
+      main .tabs-panel .tabs .tabs-title a {
+        font-size: 18px;
+        color: #a7fffb;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s; }
+        main .lineup .tabs .tabs-title a:hover, main .lineup .tabs .tabs-title a:focus,
+        main .tabs .tabs .tabs-title a:hover,
+        main .tabs .tabs .tabs-title a:focus,
+        main .tabs-panel .tabs .tabs-title a:hover,
+        main .tabs-panel .tabs .tabs-title a:focus {
+          outline: 0px;
+          color: #fff;
+          background: #9676af; }
+
+main .tabs-content {
+  border: 0; }
+
+main .tabs-panel {
+  padding: 0; }
+
+main .lineup {
+  padding: 0; }
+  main .lineup .column {
+    margin: 0;
+    padding: 0; }
+    main .lineup .column:hover .orbit-container .orbit-caption {
+      bottom: 0; }
+    main .lineup .column .orbit-container {
+      overflow: hidden;
+      position: relative; }
+      main .lineup .column .orbit-container .orbit-caption {
+        height: 100%;
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 50px;
+        position: absolute;
+        bottom: -100%;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+
+main .precios {
+  padding: 1em 0;
+  background: #f6e15f;
+  color: #161742; }
+  main .precios .pricing-table {
+    border: 1px solid #161742;
+    margin: 1em 0; }
+    main .precios .pricing-table li {
+      font-size: 20px; }
+      main .precios .pricing-table li.price, main .precios .pricing-table li.title {
+        font-size: 30px; }
+
+main .suscribete {
+  background: #ee3f54;
+  color: #fff;
+  padding: 1em 0; }
+  main .suscribete h4 small {
+    color: #ffcddc; }
+
+main .info {
+  background: #62469A;
+  color: #fff;
+  padding: 2em 0; }
+  main .info .info-map {
+    height: 100%;
+    position: relative; }
+    main .info .info-map iframe {
+      width: 100%;
+      position: relative;
+      bottom: 0; }
+
+footer .banner-footer {
+  background-image: url("../images/banner-footer.gif");
+  height: 1150px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+footer .social-container {
+  padding: 2em 0px;
+  background: #59B5B1; }
+  footer .social-container a {
+    font-size: 40px;
+    color: #1C3643;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s; }
+    footer .social-container a:hover {
+      color: #1b4b63; }
+
+footer .creditos {
+  background: #161742;
+  padding: 30px 0; }
+  footer .creditos h3 {
+    font-size: 23px;
+    margin: 0;
+    color: #fff; }
+    footer .creditos h3 a {
+      color: #f6e15f; }
