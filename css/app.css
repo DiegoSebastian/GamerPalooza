@@ -237,3 +237,18 @@ footer .creditos {
     color: #fff; }
     footer .creditos h3 a {
       color: #f6e15f; }
+
+@media screen and (max-width: 40em) {
+  main .lineup {
+    padding: 0; }
+    main .lineup .column {
+      margin: 0;
+      padding: 0; }
+      main .lineup .column .orbit-container .orbit-caption {
+        height: auto;
+        text-align: center;
+        font-size: 20px;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        bottom: 0; } }
