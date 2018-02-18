@@ -19,8 +19,8 @@ header .logo-container .callout {
   margin-bottom: 0; }
   header .logo-container .callout img {
     margin: 50px 0; }
-  header .logo-container .callout .gameboy {
-    float: left; }
+  header .logo-container .callout h5 {
+    color: #fff; }
 
 header .data-sticky {
   margin: 0;
